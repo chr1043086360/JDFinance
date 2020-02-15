@@ -51,9 +51,16 @@
       "node/no-extraneous-import": "error",
       "node/no-missing-import": "error",
       "node/no-unpublished-import": "error",
+      "vue/script-indent": [
+        "error",
+        2,
+        {
+          "baseIndent": 1
+        }
+      ],
       "vue/html-indent": [
         "error",
-        4
+        2
       ],
       "vue/max-attributes-per-line": "off"
     }
